@@ -1,6 +1,6 @@
-print("Welcome To Quiz Game")
+print("Grand Welcome To Quiz Game")
 
-playing =  input("Do You want to play game? ")
+playing = input("Do You want to play game? ")
 
 if playing.lower() != "yes":
     quit()
@@ -19,7 +19,6 @@ if q1.lower() == "object oriented programming language":
 else:
     print("Wrong..!")
     wrong_score += 1
-
 
 
 q2 = input("what is the full form of API? ")
@@ -62,8 +61,5 @@ else:
     wrong_score += 1
 
 
-
 print("Total Right Answers are " + str(score))
 print("Total Wrong Answers are " + str(wrong_score))
-
-
